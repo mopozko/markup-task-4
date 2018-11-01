@@ -1,0 +1,172 @@
+
+body
+{
+    background: #ebebeb;
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background: #276793;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    height: 50px;
+    text-align: center;
+}
+
+.grid-mode-label img
+{
+    width: 25px;
+}
+
+header h1
+{
+    margin: auto;
+}
+
+header nav
+{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav label
+{
+    cursor: pointer;
+}
+
+input[id='list']:checked ~ main .list-mode-label img,
+input[id='list']:checked ~ main .list-mode-label,
+input[id='grid']:checked ~ main .grid-mode-label img,
+input[id='grid']:checked ~ main .grid-mode-label
+
+{
+    display: none;
+}
+
+h1
+{
+    margin: auto;
+    display: inline-block;
+
+}
+
+h1::first-letter
+{
+    color: #ff1e1e;
+}
+
+.card
+{
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    background: #fff0e9;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.img-box
+{
+    overflow: hidden;
+}
+
+.list-info
+{
+    margin-top: 10px;
+    text-overflow: ellipsis;
+}
+
+.card img:hover
+{
+    transform: scale3d(1.1, 1.1, 1);
+    overflow: hidden;
+}
+
+.card h2:hover
+{
+    cursor: pointer;
+    color: #276793;
+}
+
+.card:hover
+{
+    -webkit-box-shadow: 0 0 10px 2px rgba(74,73,74,1);
+    -moz-box-shadow: 0 0 10px 2px rgba(74,73,74,1);
+    box-shadow: 0 0 10px 2px rgba(74,73,74,1);
+}
+
+.img-box img
+{
+    width: 100%;
+    height: 100%;
+}
+
+input[id='grid']:checked ~ main .card
+{
+    display: inline-block;
+}
+
+input[id='grid']:checked ~ main .name
+{
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 10px;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+
+input[id='list']:checked ~ main .card
+{
+    display: block;
+    width: 500px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+input[id='list']:checked ~ main .img-box
+{
+    height: 300px;
+}
+
+input[id='grid']:checked ~ main .list-info
+{
+    display: none;
+}
+
+input[id='grid']:checked ~ main .img-box
+{
+    height: 180px;
+}
+
+.card-info
+{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-info p
+{
+    margin: 0;
+    color: gray;
+}
+
+.card-info .status
+{
+    margin-top: 20px;
+}
+
+.card-info p span
+{
+    color: black;
+
+}
+
+article
+{
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
