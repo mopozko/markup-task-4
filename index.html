@@ -5,246 +5,239 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Задача «Про котиков»</title>
 </head>
-<body>
+<body class="body">
 <input type="radio" name="mode" value="list" id="list" hidden checked>
 <input type="radio" name="mode" value="grid" id="grid" hidden >
-<main>
-    <header>
-
-        <h1>Granny.shop</h1>
-        <nav>
-            <label for="grid" class="grid-mode-label">
-                <img src="images/grid.svg" alt="grid-button">
+<main class="main">
+    <header class="header">
+        <h1 class="logo">Granny.shop</h1>
+        <nav class="view-type-selector">
+            <label for="grid" class="mode-selector mode-selector-grid">
+                <img class="mode-selector-img" src="images/grid.svg" alt="grid-button">
             </label>
-            <label for="list" class="list-mode-label">
-                <img src="images/list.svg" alt="grid-button">
+            <label for="list" class="mode-selector mode-selector-list">
+                <img class="mode-selector-img" src="images/list.svg" alt="grid-button">
             </label>
         </nav>
     </header>
-    <article>
-        <section class="card">
+    <section class="cards">
+        <article class="card">
             <div class="img-box">
-                <img src="images/1.jpg" alt="котик1">
+                <img class="card-img" src="images/1.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Барсик</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Очень ласковый и общительный котик. Отличный сосед для пенсионеров.</p>
+                    <p class="card-item">Очень ласковый и общительный котик.
+                        Отличный сосед для пенсионеров.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/5.jpg" alt="котик1">
+                <img class="card-img" src="images/5.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Близнецы</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Неразлучные близнецы, отдадим только в паре и только при обещании не разлучать их.</p>
+                    <p class="card-item">Неразлучные близнецы, отдадим только в паре и только
+                        при обещании не разлучать их.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/3.jpg" alt="котик1">
+                <img class="card-img" src="images/3.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Семен</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Самый жизнерадостный кот, при любой возможности начинает резвиться</p>
+                    <p class="card-item">Самый жизнерадостный кот, при
+                        любой возможности начинает резвиться</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/7.jpg" alt="котик1">
+                <img class="card-img" src="images/7.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Громовая лань</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Попала к бабушка от соседки аллергика. Не смотря на пышную шевилюру, не линяет.</p>
+                    <p class="card-item">Попала к бабушка от соседки аллергика.
+                        Не смотря на пышную шевилюру, не линяет.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/4.jpg" alt="котик1">
+                <img class="card-img" src="images/4.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Каспер</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Каспер не зря носит имя белого приведения,
+                    <p class="card-item">Каспер не зря носит имя белого приведения,
                       ведь ночью он как призрак может находиться в десяти местах одновременно</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/8.jpg" alt="котик1">
+                <img class="card-img" src="images/8.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Пельмень</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Пельмень. Что тут еще сказать? Ласковый. Любит покушать</p>
+                    <p class="card-item">Пельмень. Что тут еще сказать? Ласковый. Любит покушать</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/2.jpg" alt="котик1">
+                <img class="card-img" src="images/2.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Тигр</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Тигра бабушка нашла на улице и сразу решила,
+                    <p class="card-item">Тигра бабушка нашла на улице и сразу решила,
                         что в ее доме для него найдется пристанище.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/10.jpg" alt="котик1">
+                <img class="card-img" src="images/10.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Рон</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Бабушка является ярой фанаткой Рон Перлман, а это значит,
+                    <p class="card-item">Бабушка является ярой фанаткой Рон Перлман, а это значит,
                         что Мейн-кун не мог не оказаться в ее доме</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/6.jpg" alt="котик1">
+                <img class="card-img" src="images/6.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Анджела</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Самая умная и спокойная бабушкина кошечка. Большую часть времени лижит и спит.
+                    <p class="card-item">Самая умная и спокойная бабушкина кошечка.
+                        Большую часть времени лижит и спит.
                         По ночам выходит на охоту и приносит добычку.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/9.jpg" alt="котик1">
+                <img class="card-img" src="images/9.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Владимир Владимирович</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Думаю не надо объяснять, почему бабушка выбрала это имя?</p>
+                    <p class="card-item">Думаю не надо объяснять, почему бабушка выбрала это имя?</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/11.jpg" alt="котик1">
+                <img class="card-img" src="images/11.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Пес</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>Заслужил свое имя отбивая бабушку от своры деревенских собак.
+                    <p class="card-item">Заслужил свое имя отбивая бабушку
+                        от своры деревенских собак.
                         Предпочитает жить во дворе, желательно в конуре.</p>
                 </div>
             </div>
-        </section>
-        <section class="card">
+        </article>
+        <article class="card">
             <div class="img-box">
-                <img src="images/12.jpg" alt="котик1">
+                <img class="card-img" src="images/12.jpg" alt="котик1">
             </div>
             <div class="card-info">
                 <h2 class="name">Очень длинное имя, по этому зовем просто Кыс-Кыс</h2>
                 <div class="grid-info">
-                    <p class="grid-info">Возраст: <span>1 год</span></p>
-                    <p class="grid-info">Порода: <span>нет</span></p>
-                    <p class="grid-info">Болезни: <span>нет</span></p>
-                    <p class="list-info"></p>
-                    <p class="grid-info status">Cтатус: <span>Ищет хозяина</span></p>
+                    <p class="card-item">Возраст: <span class="card-item-value">1 год</span></p>
+                    <p class="card-item">Порода: <span class="card-item-value">нет</span></p>
+                    <p class="card-item">Болезни: <span class="card-item-value">нет</span></p>
+                    <p class="card-item status">Cтатус: <span class="card-item-value">Ищет хозяина</span></p>
                 </div>
                 <div class="list-info">
-                    <p>На самом деле - самый обычный кот, с самым обычным именем,
+                    <p class="card-item">На самом деле - самый обычный кот, с самым обычным именем,
                         которое никто не может запомнить.</p>
                 </div>
             </div>
-        </section>
-    </article>
+        </article>
+    </section>
 </main>
 </body>
 </html>
